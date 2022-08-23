@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #dedede ;
+
+}
+h1{
+    background-color: #d12c2a;
+}
+.logoHorizontal {
+height: 30px;
+
+}
+.menuPrincipal  {
+    list-style: none;
+    text-align: right;  
+}
+li{
+    display: inline; 
+    padding-right: 20px;
+}
+
+
+
+.videoGuarderia {
+    height: 300px;
+    width: 600px;
+}
+
+/* Pagina Principal */
+.mainHome{
+    display: flex;
+    gap: 200px;
+}
+.homeIcons {
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.mainIcon {
+    width: 200px;
+
+}
+
+/* Pagina Vehiculos*/
+.mainCardAuto {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.cardAuto {
+    height: 500px;
+    width: 250px;
+    background-color: #534b4b;
+    padding: 10px ;
+    margin: 10px ;
+    text-align: center;
+    border-bottom: groove 3px;
+     
+}
+.cardImg {
+    height: 160px;
+    width: 120px;
+    margin: 10px;
+}
+
+/* Pie de Pagina*/
+footer {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    
+}
+.map {
+    height: 200px;
+    width: 600px;
+    margin: 10px;
+    
+}
+.redSocial {
+    text-align: center;
+}
+.redIcon {
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    margin-top: 50px;
+    margin-right: 25px;
+    
+}
