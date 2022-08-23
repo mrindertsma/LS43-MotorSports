@@ -57,26 +57,17 @@ li{
 
 
 /* Pagina Vehiculos*/
-.mainCardAuto {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+
+.card-img-top {
+    width: 10rem;
 }
-.cardAuto {
-    height: 500px;
-    width: 250px;
-    background-color: #534b4b;
-    padding: 10px ;
-    margin: 10px ;
-    text-align: center;
-    border-bottom: groove 3px;
-     
+
+.card {
+    background-color: #DEDEDE;
 }
-.cardImg {
-    height: 160px;
-    width: 120px;
-    margin: 10px;
-}
+
+
+
 
 /* Pie de Pagina*/
 footer {
