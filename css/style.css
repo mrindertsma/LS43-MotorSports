@@ -35,6 +35,7 @@ li{
 .videoGuarderia {
     height: 300px;
     width: 600px;
+    justify-content: center;
 }
 
 /* Pagina Principal */
@@ -93,3 +94,13 @@ footer {
     margin-right: 25px;
     
 }
+/* Pagina Gestoria*/ 
+.card-text {
+    color: black;
+    font-size: 25px;
+    
+}
+.card-title{
+    font-size: 45px;
+}
+
