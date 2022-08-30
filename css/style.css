@@ -84,8 +84,7 @@ footer {
 .map {
     height: 200px;
     width: 600px;
-    margin: 10px;
-    text-align: center;
+    justify-content: center;
     
 }
 .redSocial {
@@ -99,6 +98,28 @@ footer {
     margin-right: 25px;
     
 }
+.col {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 576px) {
+
+    .map {
+
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .map {
+
+        width: 100%;
+    }
+
+}
 /* Pagina Gestoria*/ 
 .card-text {
     color: black;
@@ -109,4 +130,7 @@ footer {
     font-size: 45px;
 }
 
+.card-img-overlay {
+    overflow: scroll;
+}
 
