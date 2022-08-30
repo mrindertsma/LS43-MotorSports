@@ -26,6 +26,9 @@ left: 0%;
     margin-bottom: 15px;
     margin-top: 15px;
 }
+.nav-link {
+    color: #d12c2a;
+}
 li{
     display: inline; 
     padding-right: 20px;
@@ -69,6 +72,9 @@ li{
 
 .card {
     background-color: #DEDEDE;
+    margin: 20px;
+    gap: 20px;
+
 }
 
 
