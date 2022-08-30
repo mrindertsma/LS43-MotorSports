@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <!--Menu de navegacion-->
     <nav>
-        <ul class="menuPrincipal">
+        <ul class="nav justify-content-center">
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../pages/vehiculos.html">Vehículos</a> </li>
             <li><a href="../pages/financiacion.html">Financiación</a>  </li>
@@ -34,46 +34,58 @@
 <body>
     <h1 class="h1 animate__animated animate__rubberBand">Guardería Náutica</h1>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../img/01.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../img/02.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../img/03.jpeg" class="d-block w-100" alt="...">
-          </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../img/01.jpg" class="d-block w-100" alt="...">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <img src="../img/02.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../img/03.jpeg" class="d-block w-100" alt="...">
+        </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
     <main>
-       
         <section>
             <!--video/img de papa charly-->
-    <iframe class="videoGuarderia" width="560" height="315" src="https://www.youtube.com/embed/LCkUJ-9-z-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="videoGuarderia" width="560" height="315" src="https://www.youtube.com/embed/LCkUJ-9-z-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
     </main>
     <footer>
-      <section class="redSocial">
-          <h3>Seguinos en nuestras redes</h3>
-          <!--Instagram-->
-          <a href="https://www.instagram.com/ls43.automotores/" target="blank"> <img class="redIcon" src="../img/iconoInstagram.png" alt=""></a> 
-          <!--Facebook-->
-          <a href="https://www.facebook.com/Ls43-automotores-nautica-358571961181595" target="blank"> <img class="redIcon" src="../img/iconoFacebook.png" alt=""></a> 
-      </section>
-      <section class="redSocial">
-          <!--Ubicacion-->
-          <h3>Donde encontrarnos</h3>
-          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435093.67944008374!2d-64.64972457446564!3d-31.57440298365471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d4d8305c4fb7b%3A0xd078f0933e54bf78!2scomplejo%20papa%20charly!5e0!3m2!1ses-419!2sar!4v1658780823701!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-      </section>
+      <div class="container overflow-hidden text-center">
+        <div class="row gx-5">
+          <div class="col">
+           <div class="p-3">
+            <section class="redSocial">
+              <h3>Seguinos en nuestras redes</h3>
+              <!--Instagram-->
+              <a href="https://www.instagram.com/ls43.automotores/" target="blank"> <img class="redIcon" src="../img/iconoInstagram.png" alt=""></a> 
+              <!--Facebook-->
+              <a href="https://www.facebook.com/Ls43-automotores-nautica-358571961181595" target="blank"> <img class="redIcon" src="../img/iconoFacebook.png" alt=""></a> 
+          </section>
+           </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <section class="redSocial">
+                <!--Ubicacion-->
+                <h3>Donde encontrarnos</h3>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435093.67944008374!2d-64.64972457446564!3d-31.57440298365471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d4d8305c4fb7b%3A0xd078f0933e54bf78!2scomplejo%20papa%20charly!5e0!3m2!1ses-419!2sar!4v1658780823701!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </section>
+            </div>
+          </div>
+        </div>
+      </div>
   
   </footer>
   <script src="../js/bootstrap.min.js"></script>

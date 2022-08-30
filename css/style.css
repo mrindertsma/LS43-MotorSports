@@ -14,16 +14,17 @@ h1{
     background-color: #d12c2a;
 }
 .logoHorizontal {
-height: 30px;
+height: 20px;
 position: absolute;
-top: 0%;
+top: 1%;
 left: 0%;
 
 }
-.menuPrincipal  {
+.nav  {
     list-style: none;
     text-align: right;  
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 li{
     display: inline; 
@@ -38,14 +39,17 @@ li{
     justify-content: center;
 }
 
+
+
+
 /* Pagina Principal */
 .mainHome{
     display: flex;
     gap: 200px;
 }
 
-.col h2 {
-    font-size: 20px;
+.h2 {
+    font-size: 15px;
     text-align: center;
     justify-content: center;
     }
@@ -74,13 +78,14 @@ li{
 footer {
     display: flex;
     gap: 20px;
-    justify-content: space-around;
+    
     
 }
 .map {
     height: 200px;
     width: 600px;
     margin: 10px;
+    text-align: center;
     
 }
 .redSocial {
@@ -97,10 +102,11 @@ footer {
 /* Pagina Gestoria*/ 
 .card-text {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     
 }
 .card-title{
     font-size: 45px;
 }
+
 
