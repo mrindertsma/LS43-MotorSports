@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(#DEDEDE, #D48A88);
+  font-family: 'Roboto', sans-serif; }
+  body .h1 {
+    background-color: #d12c2a; }
+
+.redSocial {
+  text-align: center; }
+  .redSocial .redIcon {
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    margin-top: 50px;
+    margin-right: 25px; }
+  .redSocial .map {
+    height: 200px;
+    width: 600px;
+    justify-content: center; }
+    @media screen and (max-width: 576px) {
+      .redSocial .map .map {
+        width: 100%; } }
+    @media screen and (max-width: 992px) {
+      .redSocial .map .map {
+        width: 100%; } }
+
+.logoHorizontal {
+  height: 20px;
+  position: absolute;
+  top: 1%;
+  left: 0%; }
+
+.nav-link {
+  color: #d12c2a; }
+  .nav-link li {
+    display: inline;
+    padding-right: 20px; }
+
+.card-img-overlay {
+  overflow: scroll; }
+  .card-img-overlay .card-title {
+    font-size: 45px; }
+  .card-img-overlay .list-group .list-group-item {
+    background-color: #D48A88; }

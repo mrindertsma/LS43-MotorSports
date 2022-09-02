@@ -1,0 +1,75 @@
+$titulo-size: 45px;
+
+body {
+    background: linear-gradient(#DEDEDE,#D48A88);
+    font-family: 'Roboto', sans-serif;
+    .h1{
+        background-color: #d12c2a;
+    }
+}
+.redSocial {
+    text-align: center;
+
+    .redIcon {
+        width: 80px;
+        height: 80px;
+        padding: 3px;
+        margin-top: 50px;
+        margin-right: 25px;
+    }
+    
+    .map {
+        height: 200px;
+        width: 600px;
+        justify-content: center;
+       
+        @media screen and (max-width: 576px) {
+
+            .map {
+        
+                width: 100%;
+            }
+        
+        }
+        
+        @media screen and (max-width: 992px) {
+        
+            .map {
+        
+                width: 100%;
+            }
+        
+        }
+    }
+
+}
+
+
+.logoHorizontal {
+    height: 20px;
+    position: absolute;
+    top: 1%;
+    left: 0%;
+}
+
+.nav-link {
+    color: #d12c2a;
+
+
+    li{
+        display: inline; 
+        padding-right: 20px;
+    }
+}
+
+.card-img-overlay {
+    overflow: scroll;
+    
+    .card-title{
+        font-size: $titulo-size;
+    }
+
+    .list-group .list-group-item {
+        background-color: #D48A88;
+    }
+}
