@@ -66,10 +66,16 @@ body {
     overflow: scroll;
     
     .card-title{
-        font-size: $titulo-size;
+        @extend %card-title
     }
+    @include color-tarjeta()
 
-    .list-group .list-group-item {
-        background-color: #D48A88;
-    }
+}
+
+@mixin color-tarjeta {
+    background-color:#D48A88 ;
+}
+
+%card-title {
+    font-size: $titulo-size ;
 }
