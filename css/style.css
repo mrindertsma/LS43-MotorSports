@@ -14,7 +14,7 @@ h1{
     background-color: #d12c2a;
 }
 .logoHorizontal {
-height: 20px;
+height: 50px;
 position: absolute;
 top: 1%;
 left: 0%;
@@ -51,6 +51,7 @@ li{
     gap: 200px;
 }
 
+
 .h2 {
     font-size: 15px;
     text-align: center;
@@ -64,10 +65,12 @@ li{
 }
 
 
+
+
 /* Pagina Vehiculos*/
 
 .card-img-top {
-    width: 10rem;
+    
 }
 
 .card {
@@ -133,7 +136,7 @@ footer {
     
 }
 .card-title{
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .card-img-overlay {

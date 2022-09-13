@@ -7,6 +7,24 @@ body {
         background-color: #d12c2a;
     }
 }
+.nav {
+    list-style: none;
+    text-align: right;  
+    margin-bottom: 50px;
+    margin-top: 15px;
+
+    .nav-link {
+        color: #d12c2a;
+        
+    
+        li{
+            display: inline; 
+            padding-right: 20px;
+        }
+    
+    }
+}
+
 .redSocial {
     text-align: center;
 
@@ -24,43 +42,23 @@ body {
         justify-content: center;
        
         @media screen and (max-width: 576px) {
-
-            .map {
-        
                 width: 100%;
-            }
-        
         }
         
         @media screen and (max-width: 992px) {
-        
-            .map {
-        
                 width: 100%;
-            }
-        
         }
     }
 
 }
 
-
 .logoHorizontal {
-    height: 20px;
+    height: 40px;
     position: absolute;
     top: 1%;
     left: 0%;
 }
 
-.nav-link {
-    color: #d12c2a;
-
-
-    li{
-        display: inline; 
-        padding-right: 20px;
-    }
-}
 
 .card-img-overlay {
     overflow: scroll;
@@ -79,3 +77,5 @@ body {
 %card-title {
     font-size: $titulo-size ;
 }
+
+
