@@ -25,6 +25,7 @@ left: 0%;
     text-align: right;  
     margin-bottom: 15px;
     margin-top: 15px;
+    
 }
 .nav-link {
     color: #d12c2a;
@@ -34,7 +35,9 @@ li{
     padding-right: 20px;
 }
 
-
+.header {
+ 
+}
 
 .videoGuarderia {
     height: 300px;
@@ -53,13 +56,13 @@ li{
 
 
 .h2 {
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
     justify-content: center;
     }
 
 .mainIcon {
-    width: 150px;
+    width: 120px;
     justify-content: center;
 
 }
@@ -141,5 +144,16 @@ footer {
 
 .card-img-overlay {
     overflow: scroll;
+}
+
+/*Página Guarderia*/
+.row {
+    margin: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+.carousel-inner {
+    size: 10px;
 }
 
