@@ -145,12 +145,16 @@ footer {
 .card-img-overlay {
     overflow: scroll;
 }
+.card-body {
+    text-align: center;
+}
 
 /*Página Guarderia*/
 .row {
-    margin: 15px;
-    justify-content: center;
+    margin: 5px;
     display: flex;
+    justify-content: center;
+    
 }
 
 .carousel-inner {
