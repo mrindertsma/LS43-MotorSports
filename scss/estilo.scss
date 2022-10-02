@@ -1,7 +1,7 @@
 $titulo-size: 45px;
 
 body {
-    background: linear-gradient(#DEDEDE,#D48A88);
+    background: linear-gradient( white,rgb(250, 57, 57) , white);
     font-family: 'Roboto', sans-serif;
     .h1{
         background-color: #d12c2a;
@@ -53,6 +53,7 @@ body {
 }
 
 .logoHorizontal {
+    display: flex;
     height: 40px;
     position: absolute;
     top: 1%;
@@ -61,7 +62,7 @@ body {
 
 
 .card-img-overlay {
-    overflow: scroll;
+    overflow: hidden;
     
     .card-title{
         @extend %card-title

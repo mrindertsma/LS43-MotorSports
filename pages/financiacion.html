@@ -18,20 +18,21 @@
     <body>
         <header>
             <!--Menu de navegacion-->
-            <nav class="nav nav-pills nav-fill">
-                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                <a class="nav-link" href="../pages/vehiculos.html">Vehículos</a>
-                <a class="nav-link" href="../pages/gestoria.html">Gestoría</a>
-                <a class="nav-link" href="../pages/guarderia.html">Guardería Náutica</a>
-            </nav>
-            <!-- Logo con link a inicio-->
-            <div>
-                <a href="../index.html"><img src="../img/logo_circ_w.png" class="logoHorizontal" ></a>
-            </div>
+            <nav class="navbar">
+                <div class="container">
+                  <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo_circ_w.png" alt="Logo" width="60" height="60">
+                  </a>
+                  <a class="nav-link" aria-current="page" href="../pages/vehiculos.html">Vehículos</a>
+                  <a class="nav-link" href="../pages/financiacion.html">Financiación</a>
+                  <a class="nav-link" href="../pages/gestoria.html">Gestoría</a>
+                  <a class="nav-link" href="../pages/guarderia.html">Guardería Náutica</a>
+                </div>
+              </nav>
         </header>
         <h1 class="h1 animate__animated animate__rubberBand">Financiación</h1>
         <div class="card text-bg-dark">
-            <img src="../img/finan.jpg" class="card-img" alt="...">
+            <img src="../img/finan.jpg" class="card-img" alt="imagen ilustrativa de manos de una persona operando en calculadora">
             <div class="card-img-overlay">
                 <h5 class="card-title">Llegá a tu nuevo auto de la mejor manera.</h5>
                 <p class="card-text">Financiamos tu vehículo. Capitalizate con nosotros de la mejor manera. Acercate a nuestras oficinas o dejanos un mensaje.</p>
@@ -42,6 +43,29 @@
                 </ul>
             </div>
         </div>
+        <section class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="card-f" style="width: 15rem;">
+                <img src="../img/asesores.png" class="card-img-top" alt="Grupo de personas">
+                <div class="card-body">
+                    <h5 class="card-title">Atención Personalizada</h5>
+                    <p class="card-text">Nuestros especialistas están preparados para asesorarte en cada paso del proceso.</p>
+                </div>
+            </div>
+            <div class="card-f" style="width: 15rem;">
+                <img src="../img/proceso-simple.png" class="card-img-top" alt="imagen ilustrativa de proceso">
+                <div class="card-body">
+                    <h5 class="card-title">Proceso simple</h5>
+                    <p class="card-text">100% online. En nuestra web encontrarás todas las herramientas para potenciar tu comercio y aumentar tus ventas.</p>
+                </div>
+            </div>
+            <div class="card-f" style="width: 15rem;">
+                <img src="../img//agil-seguro.png" class="card-img-top" alt="imagen ilustrativa de seguridad en sistema">
+                <div class="card-body">
+                    <h5 class="card-title">Ágil y seguro</h5>
+                    <p class="card-text">Nuestro sistema de seguridad de datos asegura protección y privacidad para vos.</p>
+                 </div>
+            </div>
+        </section>
         <footer>
             <div class="container overflow-hidden text-center">
                 <div class="row gx-5">
